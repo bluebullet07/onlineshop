@@ -14,7 +14,7 @@ node{
     
     stage('Push Docker Image to HUB')
     {
-        sh 'sudo docker push iamdevopstrainer/deployapp_web'
+        sh 'sudo docker push bluebullet007/deployapp_web'
     }
     
 }
